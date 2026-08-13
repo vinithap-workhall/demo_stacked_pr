@@ -7,3 +7,9 @@ function createUser(name) {
   };
 }
 console.log(createUser("Vinitha"));
+
+function loginUser(name) {
+  console.log(`${name} logged in`);
+}
+
+loginUser("Vinitha");
